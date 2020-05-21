@@ -4,6 +4,7 @@
 <html>
 <head>
     <title>Students Tracker App</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 <%
     List<Student> students = (List<Student>) request.getAttribute("students");

@@ -17,7 +17,7 @@ public class StudentDbUtil {
 
     public List<Student> getStudents() {
         List<Student> students = new ArrayList<>();
-        String sql = "SELECT * FROM students ORDER BY last_name";
+        String sql = "SELECT * FROM student ORDER BY last_name";
 
         try (Connection connection = dataSource.getConnection();
              Statement statement = connection.createStatement();

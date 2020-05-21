@@ -1,6 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="com.example.app.Student, java.util.List" %>
 <html>
 <head>
     <title>Students Tracker App</title>
@@ -12,7 +11,6 @@
         <h2>FooBar University</h2>
     </div>
 </div>
-
 <div id="container">
     <div id="content">
         <table>

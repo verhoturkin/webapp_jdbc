@@ -6,9 +6,6 @@
     <title>Students Tracker App</title>
     <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
-<%
-    List<Student> students = (List<Student>) request.getAttribute("students");
-%>
 <body>
 <div id="wrapper">
     <div id="header">
